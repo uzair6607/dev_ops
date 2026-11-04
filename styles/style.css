@@ -74,3 +74,21 @@
     color: #777777;
     font-size: 14px;
 }
+
+
+/* Events page - responsive layout */
+@media (max-width: 900px) {
+    .events-grid {
+        grid-template-columns: repeat(2, 1fr);
+    }
+}
+
+@media (max-width: 600px) {
+    .events-grid {
+        grid-template-columns: 1fr;
+    }
+    .events-page {
+        padding: 10px;
+    }
+}
+
