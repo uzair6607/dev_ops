@@ -275,7 +275,13 @@ main {
     font-size: 14px;
 }
 <<<<<<< HEAD
+<<<<<<< HEAD
 
+=======
+
+
+/* Events page - responsive layout */
+>>>>>>> b7cab9b (Add responsive media query for events page)
 @media (max-width: 900px) {
     .events-grid {
         grid-template-columns: repeat(2, 1fr);
@@ -290,5 +296,9 @@ main {
         padding: 10px;
     }
 }
+<<<<<<< HEAD
 =======
 >>>>>>> c70f108 (Add styling for event cards and tags)
+=======
+
+>>>>>>> b7cab9b (Add responsive media query for events page)
