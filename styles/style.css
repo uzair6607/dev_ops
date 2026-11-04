@@ -1,0 +1,76 @@
+/* ===== Events Page (events.html) ===== */
+.events-page {
+    max-width: 1100px;
+    margin: 0 auto;
+    padding: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.events-intro {
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+.events-intro h2 {
+    color: #1f3c88;
+}
+
+.events-grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
+}
+
+.event-card {
+    background: #ffffff;
+    border: 1px solid #dde3f0;
+    border-left: 5px solid #1f3c88;
+    border-radius: 8px;
+    padding: 18px;
+    box-shadow: 0 2px 6px rgba(0, 0, 0, 0.08);
+}
+
+.event-card h3 {
+    margin: 10px 0 6px;
+    color: #222222;
+}
+
+.event-club {
+    font-weight: bold;
+    color: #555555;
+    margin: 4px 0;
+}
+
+.event-meta {
+    font-size: 14px;
+    color: #666666;
+    margin: 4px 0 10px;
+}
+
+.event-tag {
+    display: inline-block;
+    padding: 3px 10px;
+    border-radius: 12px;
+    font-size: 12px;
+    color: #ffffff;
+    background: #1f3c88;
+}
+
+.tag-workshop    { background: #2a9d8f; }
+.tag-competition { background: #e76f51; }
+.tag-sports      { background: #f4a261; }
+.tag-cultural    { background: #9b5de5; }
+.tag-seminar     { background: #1f3c88; }
+.tag-meetup      { background: #e63973; }
+
+.events-note {
+    text-align: center;
+    margin-top: 30px;
+}
+
+.events-footer {
+    text-align: center;
+    padding: 15px;
+    color: #777777;
+    font-size: 14px;
+}
